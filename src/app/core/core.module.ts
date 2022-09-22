@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavigateComponent } from './components/navigate/navigate.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -13,6 +14,7 @@ import { NavigateComponent } from './components/navigate/navigate.component';
   imports: [
     CommonModule,
     RouterModule,
+    AppRoutingModule,
     MaterialModule
   ],
   exports: [
