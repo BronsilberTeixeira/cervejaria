@@ -58,6 +58,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     CdkTreeModule,
     DragDropModule,
     MatAutocompleteModule,
+    MatToolbarModule,
     MatBadgeModule,
     MatBottomSheetModule,
     MatButtonModule,
