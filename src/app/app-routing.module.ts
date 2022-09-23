@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './authentification/components/login/login.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
@@ -11,6 +10,10 @@ const routes: Routes = [
     children: [
       {
         path: '',
+        component: HomeComponent
+      },
+      {
+        path: 'home',
         component: HomeComponent
       }
     ]
