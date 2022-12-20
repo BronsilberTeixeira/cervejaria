@@ -2,10 +2,12 @@ import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { MaterialModule } from "./material/material.module";
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 @NgModule({
     declarations: [
-      NavbarComponent
+      NavbarComponent,
+      RodapeComponent
     ],
     imports: [
      MaterialModule,
@@ -13,7 +15,8 @@ import { MaterialModule } from "./material/material.module";
     ],
     exports: [
      MaterialModule,
-     NavbarComponent
+     NavbarComponent,
+     RodapeComponent
     ]
   })
   export class SharedModule { }
